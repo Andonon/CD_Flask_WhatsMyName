@@ -3,7 +3,7 @@ by: Troy Center, troycenter1@gmail.com, Coding Dojo Python fundamentals, June 20
 '''
 #pylint: disable=C0103
 
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request
 app = Flask(__name__)
 
 @app.route('/')
